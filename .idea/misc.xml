@@ -4,10 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/THANG/Dai_hoc/Nam_3/Hk1/LapTrinhMobile/MyProfile/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1495" />
+        <entry key="..\:/THANG/Dai_hoc/Nam_3/Hk1/LapTrinhMobile/MyProfile/app/src/main/res/drawable/bgr_login.xml" value="0.177" />
         <entry key="..\:/THANG/Dai_hoc/Nam_3/Hk1/LapTrinhMobile/MyProfile/app/src/main/res/drawable/firstlayer.xml" value="0.2" />
         <entry key="..\:/THANG/Dai_hoc/Nam_3/Hk1/LapTrinhMobile/MyProfile/app/src/main/res/drawable/layer_2.xml" value="0.2" />
+        <entry key="..\:/THANG/Dai_hoc/Nam_3/Hk1/LapTrinhMobile/MyProfile/app/src/main/res/drawable/layer_login.xml" value="0.177" />
         <entry key="..\:/THANG/Dai_hoc/Nam_3/Hk1/LapTrinhMobile/MyProfile/app/src/main/res/drawable/seconlayer.xml" value="0.1065" />
         <entry key="..\:/THANG/Dai_hoc/Nam_3/Hk1/LapTrinhMobile/MyProfile/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/THANG/Dai_hoc/Nam_3/Hk1/LapTrinhMobile/MyProfile/app/src/main/res/layout/activity_main2.xml" value="0.264" />
       </map>
     </option>
   </component>
