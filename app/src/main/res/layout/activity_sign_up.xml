@@ -8,14 +8,14 @@
     android:background="#ffffff">
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnLogin2"
+        android:id="@+id/btnRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/pass"
         android:layout_marginHorizontal="20dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="90dp"
         android:backgroundTint="#8a56ab"
-        android:text="LOGIN"
+        android:text="Register"
         android:textSize="25dp"
         app:cornerRadius="40dp" />
 
@@ -26,13 +26,22 @@
         android:background="@drawable/layer_login">
 
         <TextView
+            android:id="@+id/backRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:drawableLeft="@drawable/ic_baseline_arrow_back_24_2"
+            android:padding="10dp" />
+
+        <TextView
             android:id="@+id/TextAccount"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="70dp"
+
             android:background="#ffffff"
             android:gravity="center"
-            android:text="SIGN IN"
+            android:text="SIGN UP"
             android:textColor="#8a56ab"
             android:textSize="50dp" />
 
@@ -40,7 +49,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/TextAccount"
-            android:drawableRight="@drawable/ic_baseline_vpn_key_24"
+            android:drawableRight="@drawable/ic_baseline_account_circle_24"
             android:paddingRight="150dp" />
     </RelativeLayout>
 
@@ -49,8 +58,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/layout_acc"
-        android:layout_marginTop="57dp"
+        android:layout_marginTop="99dp"
         android:hint="userName"
+        android:padding="20dp"
+        android:textColor="#8a56ab" />
+
+    <EditText
+        android:id="@+id/username2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_acc"
+        android:layout_marginTop="24dp"
+        android:hint="Email"
         android:padding="20dp"
         android:textColor="#8a56ab" />
 
@@ -58,39 +77,21 @@
         android:id="@+id/pass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Password"
-        android:textColor="#8a56ab"
-        android:padding = "20dp"
         android:layout_below="@+id/username"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="9dp"
+        android:hint="Password"
+        android:padding="20dp"
+        android:textColor="#8a56ab" />
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnSignUp"
-        android:layout_width="150dp"
+    <EditText
+        android:id="@+id/pass2"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/pass"
-        android:layout_marginLeft="132dp"
-
-        android:layout_marginTop="95dp"
-        android:backgroundTint="#8a56ab"
-        android:text="Register"
-        android:textSize="20dp"
-        app:cornerRadius="40dp" />
-
-    <TextView
-        android:id="@+id/btnFace"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/pass"
-        android:layout_alignParentEnd="true"
-        android:layout_marginHorizontal="20dp"
-        android:layout_marginLeft="300dp"
-        android:layout_marginTop="161dp"
-
-        android:layout_marginEnd="174dp"
-        android:drawableLeft="@drawable/facebook"
-        android:textSize="20dp"
-        app:cornerRadius="40dp" />
+        android:layout_below="@+id/username"
+        android:layout_marginTop="83dp"
+        android:hint="BirthDate"
+        android:padding="20dp"
+        android:textColor="#8a56ab" />
 
 
 </RelativeLayout>
